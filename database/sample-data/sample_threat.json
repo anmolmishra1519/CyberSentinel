@@ -1,0 +1,23 @@
+{
+  "networkFlowId": "66d9f1a2b7c9e40012ab34cd",
+  "threatType": "DDoS",
+  "sourceIP": "203.0.14.91",
+  "destinationIP": "10.0.0.20",
+  "protocol": "TCP",
+  "sourcePort": 51122,
+  "destinationPort": 80,
+  "flowDuration": 0.41,
+  "packetCount": 3120,
+  "byteCount": 218400,
+  "confidence": 0.96,
+  "riskScore": 94,
+  "severity": "CRITICAL",
+  "reasons": [
+    "Packet rate is far above normal baseline traffic",
+    "Destination host is receiving connections from an unusually large number of sources",
+    "Very short flow duration, inconsistent with a normal session"
+  ],
+  "recommendedAction": "High-volume traffic detected towards this destination. Investigate the source traffic and consider temporary rate-limiting or isolation according to security policy.",
+  "detectionTime": "2026-09-05T09:42:03.000Z",
+  "status": "OPEN"
+}

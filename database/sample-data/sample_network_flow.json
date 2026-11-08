@@ -1,0 +1,17 @@
+{
+  "sourceIP": "192.168.1.105",
+  "destinationIP": "10.0.0.20",
+  "protocol": "TCP",
+  "sourcePort": 44321,
+  "destinationPort": 80,
+  "flowDuration": 1.42,
+  "packetCount": 1520,
+  "byteCount": 842000,
+  "packetsPerSecond": 1070.4,
+  "bytesPerSecond": 592957.7,
+  "dstConnCount60s": 3,
+  "uniqueDstPorts60s": 1,
+  "repeatConnSameDstPort60s": 0,
+  "timestamp": "2026-09-05T09:41:12.000Z",
+  "source": "UPLOAD"
+}

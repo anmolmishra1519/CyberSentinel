@@ -1,0 +1,122 @@
+{
+  "BruteForce": {
+    "mean": {
+      "protocolEncoded": 0.0,
+      "sourcePort": 33369.40480334146,
+      "destinationPort": 1273.085798816568,
+      "flowDuration": 1.8957305951966583,
+      "packetCount": 21.900452488687783,
+      "byteCount": 4045.9255134006266,
+      "packetsPerSecond": 17.285428123912286,
+      "bytesPerSecond": 3128.0155951966585,
+      "avgPacketSize": 185.65697391772005,
+      "dstConnCount60s": 33.32474765053951,
+      "uniqueDstPorts60s": 0.9843369300382875,
+      "repeatConnSameDstPort60s": 32.575356769926906
+    },
+    "std": {
+      "protocolEncoded": 1e-06,
+      "sourcePort": 18849.20576554407,
+      "destinationPort": 1606.7790636230345,
+      "flowDuration": 0.9280809820505334,
+      "packetCount": 9.837700983301474,
+      "byteCount": 2090.396347964176,
+      "packetsPerSecond": 16.71295365214368,
+      "bytesPerSecond": 3234.863370321234,
+      "avgPacketSize": 44.61038568605111,
+      "dstConnCount60s": 20.2876711415157,
+      "uniqueDstPorts60s": 0.12417999130084509,
+      "repeatConnSameDstPort60s": 20.22518186219197
+    }
+  },
+  "DDoS": {
+    "mean": {
+      "protocolEncoded": 0.29273149684699634,
+      "sourcePort": 33119.44125456356,
+      "destinationPort": 197.11699303020245,
+      "flowDuration": 0.8996038831729174,
+      "packetCount": 1821.345336873548,
+      "byteCount": 164764.76169930302,
+      "packetsPerSecond": 6919.534540325258,
+      "bytesPerSecond": 629449.5374095587,
+      "avgPacketSize": 91.23852771086858,
+      "dstConnCount60s": 31.152173913043477,
+      "uniqueDstPorts60s": 0.01310985728509791,
+      "repeatConnSameDstPort60s": 0.003982741453700631
+    },
+    "std": {
+      "protocolEncoded": 0.45505498695936947,
+      "sourcePort": 18520.878152544254,
+      "destinationPort": 179.65125583642197,
+      "flowDuration": 0.69840312286554,
+      "packetCount": 1375.818105012467,
+      "byteCount": 145436.44787080734,
+      "packetsPerSecond": 19357.83902114098,
+      "bytesPerSecond": 1844417.6275146233,
+      "avgPacketSize": 34.24795934403706,
+      "dstConnCount60s": 20.9252838335332,
+      "uniqueDstPorts60s": 0.113755719950939,
+      "repeatConnSameDstPort60s": 0.06298939279902566
+    }
+  },
+  "Normal": {
+    "mean": {
+      "protocolEncoded": 0.20421875,
+      "sourcePort": 33541.00765625,
+      "destinationPort": 2032.7034375,
+      "flowDuration": 13.346495625,
+      "packetCount": 144.9196875,
+      "byteCount": 67139.420625,
+      "packetsPerSecond": 43.870840625,
+      "bytesPerSecond": 16194.1775859375,
+      "avgPacketSize": 470.22241000031715,
+      "dstConnCount60s": 0.0290625,
+      "uniqueDstPorts60s": 0.10890625,
+      "repeatConnSameDstPort60s": 0.0103125
+    },
+    "std": {
+      "protocolEncoded": 0.40316207059532577,
+      "sourcePort": 18474.10626054234,
+      "destinationPort": 3205.520611347184,
+      "flowDuration": 9.263355930386686,
+      "packetCount": 128.33276548469283,
+      "byteCount": 53152.86702542628,
+      "packetsPerSecond": 149.3567064198246,
+      "bytesPerSecond": 51383.74085021146,
+      "avgPacketSize": 180.5959230414428,
+      "dstConnCount60s": 0.17616915928802007,
+      "uniqueDstPorts60s": 0.3257689553068374,
+      "repeatConnSameDstPort60s": 0.10256949487060768
+    }
+  },
+  "PortScan": {
+    "mean": {
+      "protocolEncoded": 0.0,
+      "sourcePort": 32955.84877158034,
+      "destinationPort": 4981.431274900398,
+      "flowDuration": 0.04078353253652058,
+      "packetCount": 1.24601593625498,
+      "byteCount": 75.6347941567065,
+      "packetsPerSecond": 83.38881142098273,
+      "bytesPerSecond": 4170.773828021248,
+      "avgPacketSize": 62.82893426294821,
+      "dstConnCount60s": 104.15853253652058,
+      "uniqueDstPorts60s": 98.69272908366534,
+      "repeatConnSameDstPort60s": 0.0
+    },
+    "std": {
+      "protocolEncoded": 1e-06,
+      "sourcePort": 18638.047305384564,
+      "destinationPort": 2884.081458901405,
+      "flowDuration": 0.023019143290511603,
+      "packetCount": 0.4307246848102311,
+      "byteCount": 28.21906456093008,
+      "packetsPerSecond": 155.265399193725,
+      "bytesPerSecond": 7790.559187833179,
+      "avgPacketSize": 22.606826627686996,
+      "dstConnCount60s": 75.30201575020715,
+      "uniqueDstPorts60s": 69.20578005166647,
+      "repeatConnSameDstPort60s": 1e-06
+    }
+  }
+}
